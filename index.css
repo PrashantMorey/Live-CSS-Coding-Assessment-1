@@ -1,0 +1,45 @@
+.head{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 25px;
+  
+}
+
+hr{
+    margin: 25px 0;
+    background-color: red;
+    height: 25px;
+    margin: 7px 0;
+}
+
+hr:hover{
+    background-color: lightblue;
+    height: 25px;
+    border-radius: 50px;
+
+
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    border: 2px solid black;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box p{
+    font-size: larger;
+    font-weight:bolder;
+    margin: 10px;
+    text-shadow: 1px 1px 1px brown;
+    text-decoration: line-through;
+}
+.box:hover{
+    background-color: purple;
+}
